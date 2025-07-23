@@ -1,4 +1,4 @@
-This code implements Source-Free Domain Adaptation (SFDA) using the SHOT (Source Hypothesis Transfer) framework. We adopt a ResNet-based feature extractor and replace all standard Batch Normalization (BN) layers with two alternative normalization strategies proposed in our research:
+This code implements Source-Free Domain Adaptation (SFDA) using the SHOT (Source Hypothesis Transfer) framework. We adopt a ResNet-based feature extractor and replace standard Batch Normalization (BN) layers with two alternative normalization strategies proposed in our research:
 
 MetaBN: A meta-learning-based batch normalization mechanism that dynamically generates affine parameters to improve task-specific adaptation.
 
